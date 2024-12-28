@@ -17,5 +17,18 @@ public  class Line {
         }
         else System.out.println("Lines are not equal");
     }
+    public  void Comparision(Line other){
+        int val = this.dist.compareTo(other.dist);
+        if(val<0){
+            System.out.println("Line 1 is smaller than Line 2");
+
+        }
+        else if (val==0){
+            System.out.println("Both Line are equal");
+        }
+        else {
+            System.out.println("Line 1 is greater than Line 2");
+        }
+    }
 
 }

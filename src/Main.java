@@ -24,6 +24,7 @@ public class Main {
         System.out.println("Length of Line 1: " + line1.calculateLength());
         System.out.println("Length of Line 2: " + line2.calculateLength());
         line1.checkEquality(line2);
+        line1.Comparision(line2);
         scanner.close();
     }
 }
