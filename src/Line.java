@@ -1,6 +1,9 @@
 public  class Line {
-    double x1,x2,y1,y2;
-    Double dist=new Double(0);
+    private final double x1;
+    private final double x2;
+    private final double y1;
+    private final double y2;
+    public  Double dist=new Double(0);
     public Line(double x1, double y1, double x2, double y2) {
         this.x1 = x1;
         this.y1 = y1;
